@@ -1,15 +1,21 @@
-# 42cursus_cub3d
-A recreation of the world-famous Wolfenstein 3D game, widely recognized as one of the first first-person shooters (FPS). The main objective of this project is to develop a dynamic and subjective view, simulating the character's perspective, within a realistically represented 3D maze. The project explores the technique of ray-casting. Project Details:
-- Dynamic View: The view adjusts in real-time according to the player's movements, providing an immersive experience. This adaptation is essential to simulate the visual perception of the character as they move through the maze.
-  
-- Subjective View: The player sees the world from the character's point of view, meaning the camera is positioned at the character's eye level, offering a first-person perspective.
-  
-- Realistic 3D Maze: The project aims to create a realistic-looking 3D maze, allowing the player to navigate and find their way through it.
-  
+# cub3d
 
-![C](https://img.shields.io/badge/C-a?style=for-the-badge&logo=C&color=grey)
+ [![Intro](https://img.shields.io/badge/Cursus-Cub3d-success?style=for-the-badge&logo=42)](https://github.com/raaulalonso/cub3d)
+ 
+ [![Stars](https://img.shields.io/github/stars/raaulalonso/cub3d?color=ffff00&label=Stars&logo=Stars&style=?style=flat)](https://github.com/raaulalonso/cub3d)
+ [![Size](https://img.shields.io/github/repo-size/raaulalonso/cub3d?color=blue&label=Size&logo=Size&style=?style=flat)](https://github.com/raaulalonso/cub3d)
+ [![Activity](https://img.shields.io/github/last-commit/raaulalonso/cub3d?color=red&label=Last%20Commit&style=flat)](https://github.com/raaulalonso/cub3d)
 
-You can see the subject [**HERE.**](https://github.com/MGuardia10/42cursus/blob/main/subjects/en/cub3d_subject_en.pdf)
+This project is inspired by the classic Wolfenstein 3D game. It involves creating a dynamic 3D graphical representation of a maze using ray-casting techniques. Developed in C with miniLibX, the project focuses on core programming skills, graphical algorithms, and efficient memory management.
+
+### Features:
+- First-person perspective maze exploration
+- Smooth window management
+- Wall texture variation based on orientation
+- Configurable floor and ceiling colors
+- Basic player movement and view control
+- Wall collisions
+- Minimap system
 
 ## Preview
 https://github.com/user-attachments/assets/5bb36ff5-6551-4443-92a5-fda23db69242
@@ -20,14 +26,14 @@ https://github.com/user-attachments/assets/5bb36ff5-6551-4443-92a5-fda23db69242
 
 1- Clone this repository
 	
-	git clone https://github.com/MGuardia10/42cursus_cub3d.git
+	git clone https://github.com/raaulalonso/cub3d.git
 2- Navigate to the new directory and run `make`
 	
-	cd 42cursus_cub3d
+	cd cub3d
    	make
 3- Execute cub3D binary with a map of your choice, for example:
 
-	./cub3d maps/valid/map6.cub
+	./cub3D maps/valid/map6.cub
 
 ## Compiling the Program
 The cub3D program comes with a Makefile that includes the following rules:
