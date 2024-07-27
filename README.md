@@ -22,16 +22,23 @@ https://github.com/user-attachments/assets/5bb36ff5-6551-4443-92a5-fda23db69242
 
 ## Installing and running the project:
 
+> ℹ️ Our cub3D project is compatible with both macOS and Linux. If you are using macOS, please uncomment the MACOS line in the Makefile and comment out the LINUX line.
+
 > ℹ️ This project is done using [Codam MLX library](https://github.com/codam-coding-college/MLX42). If something MLX related is not working on your computer, make sure to check their documentation.
 
 1- Clone this repository
 	
 	git clone https://github.com/raaulalonso/cub3d.git
-2- Navigate to the new directory and run `make`
+
+2- Navigate to the new directory.
 	
 	cd cub3d
-   	make
-3- Execute cub3D binary with a map of your choice, for example:
+
+3- Run `make`
+
+	make
+
+4- Execute cub3D binary with a map of your choice, for example:
 
 	./cub3D maps/valid/map6.cub
 
